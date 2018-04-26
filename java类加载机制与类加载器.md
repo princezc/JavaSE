@@ -34,7 +34,7 @@ Appclass Loader也称为SystemAppClass 加载当前应用的classpath的所有�
 
 ![ClassLoader的公共抽象类]({{site.baseurl}}//%E5%9B%BE%E7%89%879.png)
 前面提到父加载器，这个在所有classloader的公共抽象父类中有所体现，
-getParent()实际上返回的就是一个ClassLoader对象parent，parent的赋值是在ClassLoader对象的构造方法中，它有两个情况： 
+getParent()实际上返回的就是一个ClassLoader对象parent，parent的赋值是在ClassLoader对象的构造方法中，它有两个情况：
 1. 由外部类创建ClassLoader时直接指定一个ClassLoader为parent。
 
 2. 由getSystemClassLoader()方法生成，也就是在sun.misc.Laucher通过getClassLoader()获取，也就是AppClassLoader。直白的说，一个ClassLoader创建时（比如我们自己写的classloader）如果没有指定parent，那么它的parent默认就是AppClassLoader。
