@@ -5,7 +5,7 @@ md，这个prose的插入本地图片的功能好蠢啊。。。
 大部分内容源自JVM高级特性那本书中的内容，这个topic主要是对Java源码到JVM中可用类，最后到类卸载的一个全过程，后半部分介绍了一下类加载器的相关知识，也是挖掘地比较深。
 从Java源码到Class字节码文件(编译期优化)：
 
-![从Java源码到Class字节码文件(编译期优化)]({{site.baseurl}}/https://github.com/princezc/JavaSE/blob/master/%E5%9B%BE%E7%89%871.png?raw=true)
+![从Java源码到Class字节码文件(编译期优化)]({{site.baseurl}}/https://raw.githubusercontent.com/princezc/JavaSE/master/%E5%9B%BE%E7%89%871.png)
 将class字节码文件加载入JVM中（加载与验证阶段）：
 ![将class字节码文件加载入JVM中（加载与验证阶段）]({{site.baseurl}}//%E5%9B%BE%E7%89%872.png)
 将class字节码文件加载入JVM中（准备与解析阶段）：
